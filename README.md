@@ -117,11 +117,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 15) Next, you will restart the server by clicking on "stop" then "start" on the upper-right corner.
-16) The final app you want to install is osTicket v1.15.8. From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”. Within c:\inetpub\root, Rename "upload" to "osTicket".
+16) The final app you want to install is osTicket v1.15.8. From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”. Within c:\inetpub\root, Rename "upload" to "osTicket". Reload IIS again.
 
 <p>
 <img src="https://i.imgur.com/Voax6QR.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
   <img src="https://i.imgur.com/J2RVhof.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 
-17) 
+17) On IIS go to sites -> Default -> osTicket -On the right, click “Browse *:80”
+
+<p>
+<img src="https://i.imgur.com/9sIrZSD.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
+18) The website should look like this. Notice how some extensions are not enabled on this window.
+
+<p>
+<img src="https://i.imgur.com/3StuqvQ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
