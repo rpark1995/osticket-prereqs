@@ -104,4 +104,24 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/RK673Ay.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 
-13) 
+13) Register new PHP version
+
+<p>
+<img src="https://i.imgur.com/RK673Ay.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
+14) You will want to provide a path to the php executable file (php-cgi.exe)). Go to C Drive -> PHP -> click on php-cgi file.
+
+<p>
+<img src="https://i.imgur.com/zgpkKA5.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
+15) Next, you will restart the server by clicking on "stop" then "start" on the upper-right corner.
+16) The final app you want to install is osTicket v1.15.8. From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”. Within c:\inetpub\root, Rename "upload" to "osTicket".
+
+<p>
+<img src="https://i.imgur.com/Voax6QR.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/J2RVhof.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
+17) 
