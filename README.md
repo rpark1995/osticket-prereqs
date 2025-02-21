@@ -84,6 +84,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Select "Typical" setup
 - Launch the configuration wizard after setup and choose "Standard Configuration"
 - Next, make sure "Modify Security Settings" is checked and type in the root password
+- Finally, execute the process
 
 <p>
 <img src="https://i.imgur.com/Pet0oGM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -91,4 +92,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <img src="https://i.imgur.com/13conMB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 
-11) 
+11) Once, mysql is configured, you will open IIS as an administrator.
+
+<p>
+<img src="i.https://i.imgur.com/tVsQNwn.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
+12) The interface should look like this. Click on "PHP Manager" to register PHP from IIS.
+
+<p>
+<img src="https://i.imgur.com/RK673Ay.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
+13) 
