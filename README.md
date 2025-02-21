@@ -33,9 +33,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 
-1.) The first thing you are going to want to do is create a virtual machine by going to https://portal.azure.com/. Setup your virtual machine with Windows 10 Pro, version 22H2. Note, you will want to create a virtual machine with atleast 2 vcpus and 16 gbs of memory.
+1.) Before setting up the ticketing system, you will create a virtual machine by going to https://portal.azure.com/. Select Windows 10 Pro, version 22H2 as the image. Also, make sure that the virtual machine contains at least 2 vCPUs and 16 GB of memory.
 
-2.) Once you have created your virtual machine you will want to conncet to it by using the public ip address the vm is setup with. You will connect using the remote desktop connection app. 
+2.) Once you have setup your virtual machine, you will connect to it by using the public IP address the vm is setup with. Open the Remote Desktop app and enter the public IP address from VM and username that you created and click Connect. 
 </p>
 <br />
 
@@ -48,7 +48,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-3.) Once you have connected to your virtual machine you will want to go to your control panel. From the control panel open up programs. Select, Turn Windows features on and off.
+3.) Once you have connected to your virtual machine, the first step is enabling IIS with CGI. In your VM, open Control Panel and click on "Programs and Features" under Programs. Next, click on "Turn Windows features on or off". 
 
 <p>
 <img src="https://imgur.com/fGXMpx4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
