@@ -64,4 +64,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-5) 
+5) Now that IIS is enabled, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) from the "osTicket-Installation-Files" folder.
+
+<p>
+<img src="https://i.imgur.com/qrl9QpH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+6) Next, from the “osTicket-Installation-Files” folder, install the Rewrite Module (rewrite_amd64_en-US.msi). This will be a zipped file, so you will need to extract it.
+7) You will create a new folder named "PHP" in your C drive (C:\PHP). 
