@@ -70,5 +70,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/qrl9QpH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-6) Next, from the “osTicket-Installation-Files” folder, install the Rewrite Module (rewrite_amd64_en-US.msi). This will be a zipped file, so you will need to extract it.
-7) You will create a new folder named "PHP" in your C drive (C:\PHP). 
+6) Next, from the “osTicket-Installation-Files” folder, install the Rewrite Module (rewrite_amd64_en-US.msi).
+7) Next, create a new folder named "PHP" in your C drive (C:\PHP). 
+8) From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder you just created.
+
+<p>
+<img src="https://i.imgur.com/6FEAkry.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/5hqK6HF.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
+9) Once you unzipped the contents into the PHP folder, from the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
+10) Next, install "mysql-5.5.62-win32.msi" from the “osTicket-Installation-Files” folder. Once mysql is installed and its window appears, follow these next steps:
+- Select "Typical" setup
+- Launch the configuration wizard after setup and choose "Standard Configuration"
+- Next, make sure "Modify Security Settings" is checked and type in the root password
+
+<p>
+<img src="https://i.imgur.com/Pet0oGM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/RFHkwkV.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/13conMB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
+11) 
